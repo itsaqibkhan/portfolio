@@ -217,7 +217,7 @@ height: 90vh;
     padding: 4%;
 }
 
-.head-about > h2 {
+.head-about > h2, .head-portfo > h2, .head-contact > h2 {
   background-color: #2623E7;
   color: #FFFFFF;
   padding: 5px 10px;
@@ -244,7 +244,6 @@ padding: 0px;
   width: 100%;
     height: auto;
     text-align: center;
-    
 }
 
 .head-gif
@@ -266,3 +265,34 @@ padding: 0px;
   margin: auto;
 }
 
+.card{
+  width: 80%;
+    height: 400px;
+    background: #bed6ef;
+}
+
+/* for Swipper */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
