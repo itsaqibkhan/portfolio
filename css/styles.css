@@ -281,6 +281,19 @@ padding: 0px;
   margin-bottom: 50px;
 }
 
+footer{
+  color: #000;
+  background-color: #b3dbff;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-links{
+  margin: 10px;
+  
+}
+
 /* for Swipper */
 .swiper-container {
   width: 100%;
